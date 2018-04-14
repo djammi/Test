@@ -33,24 +33,37 @@
                     <a href="{% url 'user:logout' %}">退出</a>
                 </div>
                 {% else %}
+                <div class="register_btn fl">
+                    <a href="{% url 'user:register' %}">注册</a>
+                </div>
                 <div class="login_btn fl">
                     <a href="{% url 'user:login' %}">登录</a>
-                    <span>|</span>
-                    <a href="{% url 'user:register' %}">注册</a>
                 </div>
                 {% endif %}
                 <div class="user_link fl">
                     <span>|</span>
-                    <a href="#">用户中心</a>
+                    <a href="{% url 'user:user' %}">用户中心</a>
                     <span>|</span>
-                    <a href="#">我的购物车</a>
+                    <a href="{% url 'cart:show' %}">我的购物车</a>
                     <span>|</span>
-                    <a href="#">我的订单</a>
+                    <a href="{% url 'order:place' %}">我的订单</a>
                 </div>
             </div>
         </div>
     </div>
 {% endblock header_con %}
+
+{# 获取用户购物车中商品的数目 #}
+{% block cart_count %}
+    <script>
+        $.get('/cart/count/',function(data){
+            //{'res':商品的总数}
+            $('#show_count').html(data.res)
+            })
+    </script>
+{% endblock cart_count %}
+
+
 {# 网页顶部搜索框块 #}
 {% block search_bar %}
     <div class="search_bar clearfix">
@@ -83,7 +96,7 @@
     </div>
     {# 网页底部html元素块 #}
     {# 网页底部引入文件块 #}
-  {% block bottom %}123412341234{% endblock bottom %}
+  {% block bottom %}{% endblock bottom %}
   {% block bottomfiles %}{% endblock bottomfiles %}
 </body>
 </html>

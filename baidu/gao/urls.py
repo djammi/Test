@@ -7,6 +7,9 @@ urlpatterns = [
 	url(r'^login/$',views.login,name='login'),
 	url(r'^login_check/$', views.login_check, name='login_check'),
 	url(r'^logout/$',views.logout,name='logout'),
-
-
+	url(r'^address/$',views.address,name='address'),
+	url(r'^$', views.user, name='user'),
+	url(r'^order/$',views.order,name='order'),
+	url(r'^verifycode/$', views.verifycode, name='verifycode'),  # 验证码功能
+	url(r'^active/(?P<token>.*)/$',views.register_active,name='active'),
 ]

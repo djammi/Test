@@ -15,9 +15,9 @@ class Migration(migrations.Migration):
             name='Books',
             fields=[
                 ('id', models.AutoField(verbose_name='ID', primary_key=True, serialize=False, auto_created=True)),
-                ('is_delete', models.BooleanField(verbose_name='刪除時間', default=False)),
-                ('create_time', models.DateTimeField(verbose_name='創建時間', auto_now_add=True)),
-                ('update_time', models.DateTimeField(verbose_name='更新時間', auto_now=True)),
+                ('is_delete', models.BooleanField(verbose_name='删除标记', default=False)),
+                ('create_time', models.DateTimeField(verbose_name='创建时间', auto_now_add=True)),
+                ('update_time', models.DateTimeField(verbose_name='更新时间', auto_now=True)),
                 ('type_id', models.SmallIntegerField(verbose_name='商品种类', default=1, choices=[(1, 'Python'), (2, 'Javascript'), (3, '数据结构与算法'), (4, '机器学习'), (5, '操作系统'), (6, '数据库')])),
                 ('name', models.CharField(verbose_name='商品名称', max_length=20)),
                 ('desc', models.CharField(verbose_name='商品简介', max_length=128)),

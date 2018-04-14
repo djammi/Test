@@ -21,4 +21,8 @@ urlpatterns = [
     url(r'^user/', include('gao.urls',namespace='user')),
     url(r'^tinymce/',include('tinymce.urls')),
     url(r'^',include('books.urls',namespace='books')),
+    url(r'^order/',include('order.urls',namespace='order')),
+    url(r'^cart/',include('cart.urls',namespace='cart')),
+    url(r'^search/',include('haystack.urls')),
+
 ]

@@ -1,0 +1,66 @@
+[2018-04-14 09:03:05 +0800] [15295] [INFO] Starting gunicorn 19.7.1
+[2018-04-14 09:03:05 +0800] [15295] [INFO] Listening at: http://0.0.0.0:8000 (15295)
+[2018-04-14 09:03:05 +0800] [15295] [INFO] Using worker: sync
+[2018-04-14 09:03:05 +0800] [15298] [INFO] Booting worker with pid: 15298
+[2018-04-14 09:03:05 +0800] [15299] [INFO] Booting worker with pid: 15299
+[2018-04-14 09:03:05 +0800] [15300] [INFO] Booting worker with pid: 15300
+[2018-04-14 09:17:10 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:15299)
+[2018-04-14 01:17:10 +0000] [15299] [INFO] Worker exiting (pid: 15299)
+[2018-04-14 09:17:10 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:15300)
+[2018-04-14 01:17:10 +0000] [15300] [INFO] Worker exiting (pid: 15300)
+[2018-04-14 09:17:10 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:15298)
+[2018-04-14 01:17:10 +0000] [15298] [INFO] Worker exiting (pid: 15298)
+[2018-04-14 09:17:10 +0800] [16093] [INFO] Booting worker with pid: 16093
+[2018-04-14 09:17:10 +0800] [16094] [INFO] Booting worker with pid: 16094
+[2018-04-14 09:17:11 +0800] [16095] [INFO] Booting worker with pid: 16095
+[2018-04-14 09:17:22 +0800] [16110] [INFO] Starting gunicorn 19.7.1
+[2018-04-14 09:17:22 +0800] [16110] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:17:22 +0800] [16110] [ERROR] Retrying in 1 second.
+[2018-04-14 09:17:23 +0800] [16110] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:17:23 +0800] [16110] [ERROR] Retrying in 1 second.
+[2018-04-14 09:17:24 +0800] [16110] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:17:24 +0800] [16110] [ERROR] Retrying in 1 second.
+[2018-04-14 09:17:25 +0800] [16110] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:17:25 +0800] [16110] [ERROR] Retrying in 1 second.
+[2018-04-14 09:17:26 +0800] [16110] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:17:26 +0800] [16110] [ERROR] Retrying in 1 second.
+[2018-04-14 09:17:27 +0800] [16110] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-04-14 09:19:04 +0800] [16322] [INFO] Starting gunicorn 19.7.1
+[2018-04-14 09:19:04 +0800] [16322] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:19:04 +0800] [16322] [ERROR] Retrying in 1 second.
+[2018-04-14 09:19:05 +0800] [16322] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:19:05 +0800] [16322] [ERROR] Retrying in 1 second.
+[2018-04-14 09:19:06 +0800] [16322] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:19:06 +0800] [16322] [ERROR] Retrying in 1 second.
+[2018-04-14 09:19:07 +0800] [16322] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:19:07 +0800] [16322] [ERROR] Retrying in 1 second.
+[2018-04-14 09:19:08 +0800] [16322] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:19:08 +0800] [16322] [ERROR] Retrying in 1 second.
+[2018-04-14 09:19:09 +0800] [16322] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-04-14 09:26:07 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:16093)
+[2018-04-14 09:26:07 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:16094)
+[2018-04-14 09:26:07 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:16095)
+[2018-04-14 01:26:07 +0000] [16093] [INFO] Worker exiting (pid: 16093)
+[2018-04-14 01:26:07 +0000] [16094] [INFO] Worker exiting (pid: 16094)
+[2018-04-14 01:26:07 +0000] [16095] [INFO] Worker exiting (pid: 16095)
+[2018-04-14 09:26:07 +0800] [16732] [INFO] Booting worker with pid: 16732
+[2018-04-14 09:26:07 +0800] [16733] [INFO] Booting worker with pid: 16733
+[2018-04-14 09:26:07 +0800] [16734] [INFO] Booting worker with pid: 16734
+[2018-04-14 09:26:39 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:16732)
+[2018-04-14 09:26:39 +0800] [15295] [CRITICAL] WORKER TIMEOUT (pid:16733)
+[2018-04-14 01:26:39 +0000] [16733] [INFO] Worker exiting (pid: 16733)
+[2018-04-14 01:26:39 +0000] [16732] [INFO] Worker exiting (pid: 16732)
+[2018-04-14 09:26:39 +0800] [16823] [INFO] Booting worker with pid: 16823
+[2018-04-14 09:26:39 +0800] [16824] [INFO] Booting worker with pid: 16824
+[2018-04-14 09:39:26 +0800] [19701] [INFO] Starting gunicorn 19.7.1
+[2018-04-14 09:39:26 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:39:26 +0800] [19701] [ERROR] Retrying in 1 second.
+[2018-04-14 09:39:27 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:39:27 +0800] [19701] [ERROR] Retrying in 1 second.
+[2018-04-14 09:39:28 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:39:28 +0800] [19701] [ERROR] Retrying in 1 second.
+[2018-04-14 09:39:29 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:39:29 +0800] [19701] [ERROR] Retrying in 1 second.
+[2018-04-14 09:39:30 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 09:39:30 +0800] [19701] [ERROR] Retrying in 1 second.
+[2018-04-14 09:39:31 +0800] [19701] [ERROR] Can't connect to ('0.0.0.0', 8000)
