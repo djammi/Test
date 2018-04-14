@@ -64,3 +64,15 @@
 [2018-04-14 09:39:30 +0800] [19701] [ERROR] Connection in use: ('0.0.0.0', 8000)
 [2018-04-14 09:39:30 +0800] [19701] [ERROR] Retrying in 1 second.
 [2018-04-14 09:39:31 +0800] [19701] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2018-04-14 10:08:40 +0800] [20287] [INFO] Starting gunicorn 19.7.1
+[2018-04-14 10:08:40 +0800] [20287] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 10:08:40 +0800] [20287] [ERROR] Retrying in 1 second.
+[2018-04-14 10:08:41 +0800] [20287] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 10:08:41 +0800] [20287] [ERROR] Retrying in 1 second.
+[2018-04-14 10:08:42 +0800] [20287] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 10:08:42 +0800] [20287] [ERROR] Retrying in 1 second.
+[2018-04-14 10:08:43 +0800] [20287] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 10:08:43 +0800] [20287] [ERROR] Retrying in 1 second.
+[2018-04-14 10:08:44 +0800] [20287] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2018-04-14 10:08:44 +0800] [20287] [ERROR] Retrying in 1 second.
+[2018-04-14 10:08:45 +0800] [20287] [ERROR] Can't connect to ('0.0.0.0', 8000)
